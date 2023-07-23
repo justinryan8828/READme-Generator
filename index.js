@@ -49,6 +49,16 @@ const questions = [
     message: "What type of license are you using?",
     choices: ["MIT", "BSD3.0", "APACHE2.0", "GPL3.0"],
   },
+  {
+    type: "input",
+    name: "email",
+    messages: "List your email:",
+  },
+  {
+    type: "input",
+    name: "github",
+    messages: "Enter your github Username:",
+  },
 ];
 
 // TODO: Create a function to write README file

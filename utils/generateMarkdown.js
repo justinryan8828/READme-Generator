@@ -57,6 +57,13 @@ ${data.test}
   
   ## Badges
   ${renderLicenseBadge(data.license)}
+
+  ## Questions
+
+  E-Mail: ${data.email}
+
+
+  Repo: [${data.github}](https://github.com/${data.github})
 `;
 }
 
